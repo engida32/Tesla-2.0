@@ -1,6 +1,6 @@
 import React from 'react'
-import styled from 'styled-components'
 import Section from './Section'
+import { Container } from '../style/global_style';
 function Home() {
   return (
     <Container>
@@ -64,6 +64,3 @@ function Home() {
 }
 
 export default Home
-const Container = styled.div`
-height:100vh;
-`
